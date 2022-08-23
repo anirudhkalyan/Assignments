@@ -1,6 +1,6 @@
 #include <Arduino.h>
 //Declaring all variables as integers
-int U=1,V=1,W=0;
+int U=1,V=0,W=0;
 int G;
 void setup()
 {
