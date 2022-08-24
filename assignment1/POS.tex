@@ -29,8 +29,36 @@
 \vspace{10mm}
 
 \begin{abstract}
- This manual shows how to use Arduino with LED to represent POS expression.
-\end{abstract}
+ This manual shows how to use Arduino with LED to represent POS expression for the function shown in the  below truth table. \\
+ 
+ \vspace{3mm}
+ \centering
+ 
+ \begin{tabular}{ |c |c |c |c |}
+ \hline
+ U  &  V  &  W  &  G\\
+ \hline
+ 0  &  0  &  0  &  1\\
+ \hline
+ 0  &  0  &  1  &  0\\
+ \hline
+ 0  &  1  &  0  &  1\\
+ \hline
+ 0  &  1  &  1  &  0\\
+ \hline
+ 1  &  0  &  0  &  1\\
+ \hline
+ 1  &  0  &  1  &  0\\
+ \hline
+ 1  &  1  &  0  &  0\\
+ \hline
+ 1  &  1  &  1  &  1\\
+ \hline
+ \end{tabular}
+ 
+ 
+
+
 \section{Components}
 
 %\begin{table}[]
@@ -56,7 +84,7 @@
 
 \section{Hardware}
 
-\textbf{Problem 2.1} Make connections between the Arduino and LED using Breadboard.
+\textbf{} Make connections between the Arduino and LED using Breadboard.
 
 %\begin{figure}
  %    \centering
@@ -75,8 +103,8 @@
  %    \label{fig:seven}
 \section{Software}
 
-\textbf{Problem 3.1.} Now make the connections as per
-Table 3.1 and execute the following program after
+\textbf{} Now make the connections as per
+Table and execute the following program after
 downloading.
 
 \vspace{10mm}
@@ -90,10 +118,9 @@ downloading.
 
 %\textbf{Components} & \textbf{Value} & \textbf{Quantity} \\
 \hline
- \textbf{}  & W& V & U \\ 
+ \textbf{LED}  & pin-1  & pin-2\\
  \hline
- \textbf{Input}  & 0 & 0 & 1\\
- \textbf{Arduino}  & 8 & 7 & 6 \\  
+ \textbf{Arduino}  & 2 & GND\\  
  \hline
  \end{tabular}
  \vspace{3mm}
