@@ -16,7 +16,7 @@ while(1)
 //U= (PIND & (1 << PIND2)) == (1 << PIND2);
 //V= (PIND & (1 << PIND3)) == (1 << PIND3);
 //W=(PIND & (1 << PIND4)) == (1 << PIND4);
-G=(U||V||!W)&&(U||!V||!W)&&(!U||V||!W)&&(!U||!V||W);
+G=(V||!W)&&(U||!W)&&(!U||!V||W);
 PORTB |= (G<< 5);
 }
 return 0;
